@@ -1,8 +1,8 @@
-package e4;
+package e17;
 public class MainLivro {
     public static void main(String[] args) {
-        Livro l = new Livro("Java", "Autor", 2024);
-        l.emprestar();
-        System.out.println(l.isDisponivel());
+        Livro l1 = new Livro("Java", "Autor");
+        Livro l2 = new Livro("Java", "Autor", 2024);
+        System.out.println("Construtores criados");
     }
 }
